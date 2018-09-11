@@ -1,0 +1,20 @@
+.get-weather__form {
+	display: flex;
+}
+
+.get-weather__form-text {
+  flex: 1;
+  padding: 10px 10px;
+  margin: 20px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.get-weather__form-button {
+	background-color: #e7e7e7;
+	margin: 20px 10px;
+  border: 1px solid #f0f0f0;
+  padding: 10px 15px;
+  font: 700 13px/18px Helvetica, arial;
+  cursor: pointer;
+}

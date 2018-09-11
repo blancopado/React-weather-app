@@ -1,0 +1,16 @@
+.get-weather {
+	background-color: white;
+	border: 1px solid #ccc;
+  border-radius: 6px;
+	text-align: center;
+	margin: 30px auto;
+	padding: 30px;
+	width: 60%;
+}
+
+.get-weather__title {
+	font-size: 30px;
+	letter-spacing: 3px;
+  font-weight: bold;
+  padding: 10px;
+}
