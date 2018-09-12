@@ -20,12 +20,13 @@ class App extends React.Component {
 			<BrowserRouter>
 				<div className="container">
 					<Navbar />
-					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route path="/weather" component={Weather} />
-						<Route path="/about" component={About} />
-						<Route path="/examples" component={Examples} />
-					</Switch>
+					<div className="main">
+						<Switch>
+							<Route exact path="/" component={Weather} />
+							<Route path="/about" component={About} />
+							<Route path="/examples" component={Examples} />
+						</Switch>
+					</div>
 				</div>
 			</BrowserRouter>
 		);

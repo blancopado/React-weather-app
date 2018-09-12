@@ -1,4 +1,5 @@
 import React from 'react';
+import queryString from 'query-string';
 
 import WeatherForm from './WeatherForm';
 import WeatherMessage from './WeatherMessage';
@@ -33,6 +34,14 @@ class Weather extends React.Component {
 				error: `Temperature not found for ${location}`
 			});
 		});
+	}
+
+	componentDidMount() {
+		let location = queryString.parse(this.props.location.search).location;
+
+		if (location && location.length > 0) {
+			this.handleSearch(location);
+		}
 	}
 
 	render() {

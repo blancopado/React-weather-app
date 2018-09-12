@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
+    "query-string": "^6.1.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-router-dom": "^4.3.1"
